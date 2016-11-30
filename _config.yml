@@ -16,7 +16,7 @@ subtitle: "L'association des professionnels liés aux technologies"
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "http://www.gdg-toulouse.com" # the base hostname & protocol for your site
+url: "https://www.gdgtoulouse.fr/" # the base hostname & protocol for your site
 baseurl: ""
 
 # Build settings
