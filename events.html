@@ -1,0 +1,27 @@
+---
+layout: page
+title: Blog
+permalink: /events/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Nos events</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% for event in site.data.events %}
+<div class="post-area">
+  <a href="{{ event.link }}" target="_blank" class="bold">{{ event.name }}</a>
+  <span class="post-date">{{ event.venue.name }}</span>
+  <!--<p class="post-date">{{ event.time | date: "%F %H:%M:%S %z" }}</p>-->
+  <p>
+    {{ event.description }}
+  </p>
+</div>
+{% endfor %}

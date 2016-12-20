@@ -1,0 +1,38 @@
+[
+    {
+        "created": 1478074777000,
+        "id": "235289342",
+        "name": "Android et les tests",
+        "rsvp_limit": 80,
+        "status": "past",
+        "time": 1480528800000,
+        "updated": 1481112284000,
+        "utc_offset": 3600000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 56,
+        "venue": {
+            "id": 24605620,
+            "name": "HarryCow Coworking",
+            "lat": 43.60221862792969,
+            "lon": 1.4420479536056519,
+            "repinned": false,
+            "address_1": "13 rue Sainte Ursule",
+            "city": "Toulouse",
+            "country": "fr",
+            "localized_country_name": "France"
+        },
+        "group": {
+            "created": 1335779291000,
+            "name": "GDG Toulouse",
+            "id": 3769052,
+            "join_mode": "open",
+            "lat": 43.619998931884766,
+            "lon": 1.4500000476837158,
+            "urlname": "GDG-Toulouse",
+            "who": "passionnés"
+        },
+        "link": "https://www.meetup.com/GDG-Toulouse/events/235289342/",
+        "description": "<p>Dernière session de l\u2019année !</p> <p><br/>Au programme deux conférences, estampillées \"Clean Code\", consacrées aux <b>tests </b>sous Android et à leurs mise en oeuvre.</p> <p><img src=\"https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/7/e/5/8/600_455972344.jpeg\" /></p> <p>\n\n\n<b>Conferences</b></p> <p>\u2022 <b>Romain Mouton : Android architecture : MVP vs MVVM (databinding)</b></p> <p>Les fragments et les activités sont souvent des classes à tout faire. Récupérer des données, traiter des données et enfin afficher des données... Et la maintenabilité ? Et les tests ?</p> <p><br/>Regardons ensemble deux patterns d'architecture : MVP et MVVM (avec databinding) pour avoir moins de couplage, plus de lisibilité et ENFIN pouvoir faire des tests facilement sous Android!</p> <p>\u2022 <b>Guilhem de Miollis : Du premier test au PushDelivery</b></p> <p>\u201cTester, ça prends du temps\u201d</p> <p>\u201cL\u2019architecture ne le permet pas\u201d</p> <p>\u201cC\u2019est compliqué à mettre en place\u201d</p> <p>\u201cC\u2019est encore plus de code à maintenir\u201d</p> <p>On a tous entendu ça. Même si ces affirmations se vérifient sur le court terme, il en est autrement sur le long terme. Ensemble nous allons voir s\u2019il est nécessaire d\u2019écrire des tests, quel sera votre premier test et comment l\u2019écrire, comment savoir si mon application est bien testée jusqu\u2019à pouvoir automatiser son déploiement sur le store à partir d\u2019un simple push sur la branche Master.</p> <p>\n\n\n\n<b>Lieu</b></p> <p><br/>On remercie HarryCow de nous accueillir.</p> <p>c'est au 13 rue Sainte Ursule, Toulouse, entre Esquirol et Capitole. Rdv à partir de <b>19h</b>.</p> <p>\n\n\n<b>Sponsor</b></p> <p>Nous n'avons pas de sponsor pour cette session, vous trouverez toutes les informations pour sponsoriser à cette adresse : <a href=\"https://goo.gl/uifR4j\"><a href=\"https://goo.gl/uifR4j\" class=\"linkified\">https://goo.gl/uifR4j</a></a></p> ",
+        "visibility": "public"
+    }
+]
