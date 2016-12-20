@@ -15,7 +15,7 @@ permalink: /events/
     </div>
   </div>
 </section>
-{% for event in site.data.events %}
+{% for event in site.data.events reversed %}
 <div class="post-area">
   <a href="{{ event.link }}" target="_blank" class="bold">{{ event.name }}</a>
   <span class="post-date">{{ event.venue.name }}</span>
