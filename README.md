@@ -18,3 +18,13 @@ bundle exec jekyll serve
 
 Preview your local Jekyll site in your web browser at http://localhost:4000.
 
+## Events
+
+Generate:
+
+```shell
+yarn # or `npm i`
+cp generate_events.dist.js generate_events.js
+# Add Meetup token
+npm run build:events
+```
