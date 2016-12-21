@@ -72,23 +72,35 @@
   padding: 20px;
 }
 
+#events img {
+  max-height: 100px;
+}
+
+#events p{
+  line-height: 20px;
+  margin: 0 0 5px;
+}
+
+#events a {
+   font-size : 20px;
+}
 @media (min-width: 768px) {
   .post-area .col-date{
     max-width: 150px;
   }
 }
 
-.post-area .date { 
+.post-area .date {
   width: 100px;
   display:block;
   text-transform:uppercase;
   margin: auto;
   margin-bottom: 20px;
 }
-.post-area .date > div { 
-  width:100%; 
-  display: block; 
-  text-align: center; 
+.post-area .date > div {
+  width:100%;
+  display: block;
+  text-align: center;
   line-height: 1em;
 }
 
@@ -97,15 +109,15 @@
   color:#9BD3DD;
 }
 
-.post-area .date .month, .date .year { 
+.post-area .date .month, .date .year {
   letter-spacing: 1em;
   padding-left: 0.5em;
   color:#aaa;
   margin-top:5px;
 }
 
-.post-area .date .dayOfWeek { 
-  font-size:24px; 
+.post-area .date .dayOfWeek {
+  font-size:24px;
   letter-spacing: 0.6em;
   padding-left: 0.3em;
   color:#aaa;
