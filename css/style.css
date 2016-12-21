@@ -32,3 +32,10 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.btn-big{
+    padding: 20px 26px;
+    font-size: 32px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
