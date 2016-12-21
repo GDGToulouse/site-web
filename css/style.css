@@ -17,11 +17,34 @@
  }
 
 .post-area {
-  padding: 40px;
+  padding: 40px 40px 40px 20px;
   width: 100%;
   min-height: 150px;
   background-color: white;
   border-bottom: 1px dotted #ddd;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.post-area img {
+  margin: auto;
+  display: block;
+}
+
+.post-area .event-venue{
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f6f6;
+    margin-bottom: 10px;
+}
+
+.post-area .event-venue h3{
+  margin-top: 0;
+}
+
+.post-area .event-venue address{
+  margin-bottom: 0;
 }
 
 .post-area a:link, .post-area a:visited {
@@ -33,9 +56,57 @@
   color: #0D0017;
 }
 
+.post-area .content > h2 {
+  margin-top: 0;
+}
+
 .btn-big{
     padding: 20px 26px;
     font-size: 32px;
     line-height: 1.33;
     border-radius: 6px;
 }
+
+#events{
+  background-color: #EEE;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .post-area .col-date{
+    max-width: 150px;
+  }
+}
+
+.post-area .date { 
+  width: 100px;
+  display:block;
+  text-transform:uppercase;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.post-area .date > div { 
+  width:100%; 
+  display: block; 
+  text-align: center; 
+  line-height: 1em;
+}
+
+.post-area .date .day {
+  font-size: 75px;
+  color:#9BD3DD;
+}
+
+.post-area .date .month, .date .year { 
+  letter-spacing: 1em;
+  padding-left: 0.5em;
+  color:#aaa;
+  margin-top:5px;
+}
+
+.post-area .date .dayOfWeek { 
+  font-size:24px; 
+  letter-spacing: 0.6em;
+  padding-left: 0.3em;
+  color:#aaa;
+ }
