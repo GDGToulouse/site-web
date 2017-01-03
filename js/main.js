@@ -43,7 +43,34 @@ $(document).ready(function(){
 	$('.counter').counterUp({
         delay: 10,
         time: 1000
-    });
+	});
+
+	$('.counter-1500ms').counterUp({
+        delay: 100,
+        time: 1500
+	});
+
+	$('.counter-1750ms').counterUp({
+        delay: 100,
+        time: 1750
+	});
+
+	$('.counter-2000ms').counterUp({
+        delay: 100,
+        time: 2000
+	});
+
+	$('.counter-2250ms').counterUp({
+        delay: 100,
+        time: 2250
+	});
+
+	$('.counter-2500ms').counterUp({
+        delay: 100,
+        time: 2500
+	});
+	
+	
 
 
 });

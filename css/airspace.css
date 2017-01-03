@@ -101,7 +101,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 140px 0;
   position: relative;
 }
 #slider:before {
@@ -121,7 +121,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
@@ -131,8 +130,8 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 20px;
   line-height: 38px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   letter-spacing: 3px;
+  margin-bottom: 45px;
 }
 /*--
 	wrapper Start
