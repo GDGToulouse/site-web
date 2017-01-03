@@ -365,6 +365,15 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
   background-attachment: fixed;
 }
+
+
+@media (max-width: 512px) {
+  #global-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
 #global-header:before {
   content: "";
   position: absolute;
@@ -380,7 +389,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center;
 }
 #global-header .block h1 {
@@ -702,7 +710,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .social-icons li {
   display: inline-block;
-  margin: 0 6px;
+  margin: 6px;
 }
 .social-icons a {
   display: inline-block;
@@ -713,20 +721,28 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 25px;
 }
 .social-icons svg {
-  margin-right: 25px;
+  margin: 0 12.5px;
   vertical-align: bottom;
   height: 25px;
   width: 25px;
 }
 #global-header .social-icons i {
-  margin-right: 75px;
-  font-size: 75px;
   color: white;
 }
-#global-header .social-icons svg {
-  margin-right: 75px;
+#global-header .social-icons svg, #global-header .social-icons i {
+  margin: 0 37.5px;
+  font-size: 75px;
   height: 75px;
   width: 75px;
+}
+
+@media (max-width: 512px) {
+  #global-header .social-icons svg, #global-header .social-icons i {
+    margin: 0 17.5px;
+    font-size: 35px;
+    height: 35px;
+    width: 35px;
+  }
 }
 #global-header .social-icons svg .background {
   fill: white;

@@ -4,26 +4,19 @@
  *
  */
 
- .italic {
-   font-style: italic;
- }
+.italic {
+  font-style: italic;
+}
 
- .bold {
-   font-weight: bold;
- }
+.bold {
+  font-weight: bold;
+}
 
- .center-text {
-   text-align: center;
- }
+.center-text {
+  text-align: center;
+}
 
 .post-area {
-  padding: 40px 40px 40px 20px;
-  width: 100%;
-  min-height: 150px;
-  background-color: white;
-  border-bottom: 1px dotted #ddd;
-  margin-bottom: 20px;
-  border-radius: 5px;
   overflow: hidden;
 }
 
@@ -32,24 +25,24 @@
   display: block;
 }
 
-.post-area .event-venue{
-    padding: 15px 10px;
-    border: 1px solid #ccc;
-    background-color: #f7f6f6;
-    margin-bottom: 10px;
+.post-area .event-venue {
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  background-color: #f7f6f6;
+  margin-bottom: 10px;
 }
 
-.post-area .event-venue h3{
+.post-area .event-venue h3 {
   margin-top: 0;
 }
 
-.post-area .event-venue address{
-  margin-bottom: 0;
-}
-
-.post-area a:link, .post-area a:visited {
+.post-area .title {
   font-size: 30px;
   color: #333;
+}
+
+.post-area .event-venue address {
+  margin-bottom: 0;
 }
 
 .post-area a:hover {
@@ -60,45 +53,49 @@
   margin-top: 0;
 }
 
-.btn-big{
-    padding: 20px 26px;
-    font-size: 32px;
-    line-height: 1.33;
-    border-radius: 6px;
+.btn-big {
+  padding: 20px 26px;
+  font-size: 32px;
+  line-height: 1.33;
+  border-radius: 6px;
 }
 
-#events{
+.gray-container {
   background-color: #EEE;
   padding: 20px;
+}
+
+@media (max-width: 512px) {
+  .gray-container {
+    padding: 0px;
+  }
 }
 
 #events img {
   max-height: 100px;
 }
 
-#events p{
+#events p {
   line-height: 20px;
   margin: 0 0 5px;
 }
 
-#events a {
-   font-size : 20px;
-}
 @media (min-width: 768px) {
-  .post-area .col-date{
+  .post-area .col-date {
     max-width: 150px;
   }
 }
 
 .post-area .date {
   width: 100px;
-  display:block;
-  text-transform:uppercase;
+  display: block;
+  text-transform: uppercase;
   margin: auto;
   margin-bottom: 20px;
 }
+
 .post-area .date > div {
-  width:100%;
+  width: 100%;
   display: block;
   text-align: center;
   line-height: 1em;
@@ -106,23 +103,42 @@
 
 .post-area .date .day {
   font-size: 75px;
-  color:#9BD3DD;
+  color: #9BD3DD;
 }
 
 .post-area .date .month, .date .year {
   letter-spacing: 1em;
   padding-left: 0.5em;
-  color:#aaa;
-  margin-top:5px;
+  color: #aaa;
+  margin-top: 5px;
 }
 
 .post-area .date .dayOfWeek {
-  font-size:24px;
+  font-size: 24px;
   letter-spacing: 0.6em;
   padding-left: 0.3em;
-  color:#aaa;
- }
+  color: #aaa;
+}
 
-#sponsors-logo-section{
+#sponsors-logo-section {
   padding: 20px 0;
+}
+
+.card {
+  margin: 10px 10px 10px 10px;
+  width: calc(100% - 20px);
+  border-radius: 2px;
+  font-size: 1.4rem;
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 13px 16px 13px 16px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 512px) {
+  .card {
+    margin: 10px 0px;
+    width: 100%;
+  }
 }
