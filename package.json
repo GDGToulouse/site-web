@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:events": "node ./generate_events.js > ./_data/events.json"
+    "build:events": "node ./generate_events.js > ./_data/events.json",
+    "deploy:events": "npm run build:events && git add _data/events.json && git commit -m 'auto update events' && git push origin master"
   },
   "repository": {
     "type": "git",

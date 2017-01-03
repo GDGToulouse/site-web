@@ -20,11 +20,18 @@ Preview your local Jekyll site in your web browser at http://localhost:4000.
 
 ## Events
 
-Generate:
-
 ```shell
 yarn # or `npm i`
 cp generate_events.dist.js generate_events.js
 # Add Meetup token
+```
+
+Commands:
+
+```shell
+# Fetch events
 npm run build:events
+
+# Auto fetch events + push github
+npm run deploy:events
 ```
