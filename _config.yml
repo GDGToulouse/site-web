@@ -23,7 +23,7 @@ baseurl: ""
 markdown: kramdown
 
 # Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+# ga_tracking_id: "UA-37717223-4"
 
 # Category descriptions (for archive pages)
 descriptions:
@@ -32,3 +32,6 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+gems:
+  - jekyll-feed
