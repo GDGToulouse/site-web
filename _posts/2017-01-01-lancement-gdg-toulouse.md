@@ -10,7 +10,7 @@ Bonne année à tous !
 
 <img src="/img/posts/fusion.png" alt="Fusion des meetups" style="max-width: 450px;display:block;   margin-left:auto;   margin-right:auto;"/>
 
-Le TAUG faisait déjà partie du programme de soutiens aux associations de Google les [https://developers.google.com/groups/](Google Developers Group). Avec cette fusion, l'équipe d'Angular Toulouse rejoint donc le programme. Et par la même occasion, le GDG Toulouse adoptera le branding complet proposé par Google. Vous pouvez trouver la page du groupe sur l'annuaire des GDGs [https://developers.google.com/groups/chapter/117732835400777918591/](ici).²
+Le TAUG faisait déjà partie du programme de soutiens aux associations de Google les [Google Developers Group](https://developers.google.com/groups/). Avec cette fusion, l'équipe d'Angular Toulouse rejoint donc le programme. Et par la même occasion, le GDG Toulouse adoptera le branding complet proposé par Google. Vous pouvez trouver la page du groupe sur l'annuaire des GDGs [ici](https://developers.google.com/groups/chapter/117732835400777918591/).
 
 **Qu'est ce qui va changer ?**
 
@@ -20,17 +20,17 @@ Le contenu du groupe va se diversifier, et on l'espère se densifier. Notre obje
 
 *Au niveau de l'image*
 
-Tout le branding du Toulouse Android a été changé pour devenir le GDG Toulouse. On a encore quelques soucis comme la page Facebook, mais on espère mettre tout ça au carré d'ici quelques semaines. Le compte Twitter [https://twitter.com/AngularToulouse](Angular Toulouse) reste quand à lui vivant en parallèle à celui du [https://twitter.com/GDGToulouse](GDG Toulouse). N'oubliez pas de vous abonner à celui du [https://twitter.com/DevFestToulouse](DevFest Toulouse) en préparation à l'édition 2017.
+Tout le branding du Toulouse Android a été changé pour devenir le GDG Toulouse. On a encore quelques soucis comme la page Facebook, mais on espère mettre tout ça au carré d'ici quelques semaines. Le compte Twitter [Angular Toulouse](https://twitter.com/AngularToulouse) reste quand à lui vivant en parallèle à celui du [GDG Toulouse](https://twitter.com/GDGToulouse). N'oubliez pas de vous abonner à celui du [DevFest Toulouse](https://twitter.com/DevFestToulouse) en préparation à l'édition 2017.
 
 Le site internet du TAUG via bientôt rediriger vers celui du GDG Toulouse sur lequel vous êtes.
 
 *Au niveau de l'organisation*
 
-Le meetup d'Angular Toulouse ne sera plus mis à jour. Le meetup qui centralisera tous les événements est celui du [www.meetup.com/GDG-Toulouse/](GDG Toulouse).
+Le meetup d'Angular Toulouse ne sera plus mis à jour. Le meetup qui centralisera tous les événements est celui du [GDG Toulouse](www.meetup.com/GDG-Toulouse/).
 
-Pour proposer des sujets, ça se passe maintenant sur le Github du groupe. Vous allez voir c'est facile. [https://github.com/GDGToulouse/meetup-cfp/issues](Cliquez ici).
+Pour proposer des sujets, ça se passe maintenant sur le Github du groupe. Vous allez voir c'est facile. [Cliquez ici](https://github.com/GDGToulouse/meetup-cfp/issues).
 
-Si vous avez des questions, n'hésitez pas à venir discuter avec nous sur le [http://communautes-toulouse.herokuapp.com/](Slack des communautés de Toulouse).
+Si vous avez des questions, n'hésitez pas à venir discuter avec nous sur le [Slack des communautés de Toulouse](http://communautes-toulouse.herokuapp.com/).
 
 A très vite,
 L'équipe du GDG Toulouse
