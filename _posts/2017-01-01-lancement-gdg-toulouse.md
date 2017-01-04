@@ -8,6 +8,8 @@ Bonne année à tous !
 
 2017 sera l'année du changement. En effet, le Toulouse Android User Group (TAUG) et le meetup Angular Toulouse fusionnent pour devenir le GDG Toulouse.
 
+![Fusion des meetups](/img/posts/fusion.png)
+
 Le TAUG faisait déjà partie du programme de soutiens aux associations de Google les [https://developers.google.com/groups/](Google Developers Group). Avec cette fusion, l'équipe d'Angular Toulouse rejoint donc le programme. Et par la même occasion, le GDG Toulouse adoptera le branding complet proposé par Google. Vous pouvez trouver la page du groupe sur l'annuaire des GDGs [https://developers.google.com/groups/chapter/117732835400777918591/](ici).²
 
 **Qu'est ce qui va changer ?**
