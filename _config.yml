@@ -35,3 +35,4 @@ descriptions:
 
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
