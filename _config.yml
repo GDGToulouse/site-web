@@ -11,13 +11,16 @@ keep_files:
 
 # Site settings
 title: GDG Toulouse
-subtitle: "L'association des professionnels liés aux technologies"
+subtitle: "L'association des professionnels liés aux technologies Google"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
 url: "http://www.gdgtoulouse.fr" # the base hostname & protocol for your site
 baseurl: ""
+description: "Notre objectif est de vous proposer des conférences, discussions autour des problématiques Android et Angular mais aussi de nous ouvrir aux technologies mobile, Web en général"
+twitter:
+  username: gdgtoulouse
 
 # Build settings
 markdown: kramdown
