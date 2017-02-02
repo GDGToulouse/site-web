@@ -4,6 +4,7 @@ title: Blog
 permalink: /events/
 ---
 <!-- Slider Start -->
+{% capture currentTimestamp %}{{ site.time | date: '%F' }}{% endcapture %}
 <section id="global-header">
   <div class="container">
     <div class="row">
@@ -19,8 +20,9 @@ permalink: /events/
   <div class="container">
     <div class="row">
       {% for event in site.data.events reversed %}
+      {% capture eventTimestamp %}{{ event.time | date: '%F' }}{% endcapture %}
       <div class="col-xs-12">
-        <div class="post-area card">
+        <div class="post-area card {% if eventTimestamp < currentTimestamp %}event-past{% else %}event-future{% endif %}">
           <div class="row">
             <div class="col-xs-12 col-sm-2 col-date">
               <div class="date">

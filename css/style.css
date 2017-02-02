@@ -179,3 +179,15 @@
 #slider .counter-box span {
   color: white;
 }
+
+#navbar-header .badge{
+  background-color: #d9534f;
+}
+
+#events .event-future{
+  border: 2px solid #d9534f;
+}
+
+#events .event-future .day{
+  color: #d9534f;
+}

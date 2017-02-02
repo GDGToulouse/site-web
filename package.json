@@ -4,6 +4,7 @@
   "description": "https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/",
   "main": "index.js",
   "scripts": {
+    "start": "bundle exec jekyll serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:events": "node ./generate_events.js > ./_data/events.json",
     "deploy:events": "npm run build:events && git add _data/events.json && git commit -m 'auto update events' && git push origin master"
