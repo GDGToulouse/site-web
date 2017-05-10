@@ -191,3 +191,14 @@
 #events .event-future .day{
   color: #d9534f;
 }
+
+section.alert.alert-danger{
+  background-color: #d9534f;
+  color: white;
+  font-weight: bold;
+}
+
+section.alert.alert-danger a{
+  color: white;
+  font-weight: bold;
+}

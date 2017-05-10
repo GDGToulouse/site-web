@@ -19,7 +19,7 @@
             </a>
           </div>
             <!-- get the number of events to come -->
-            {% capture currentTimestamp %}{{ site.time | date: '%F' }}{% endcapture %}
+            {% capture currentTimestamp %}{{ 'now' | date: '%F' }}{% endcapture %}
             {% assign events = site.data.events | map: 'time' %}
             {% assign eventsToCome = 0 %}
             {% for eventTime in events %}
