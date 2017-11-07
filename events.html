@@ -4,7 +4,6 @@ title: Blog
 permalink: /events/
 ---
 <!-- Slider Start -->
-{% capture currentTimestamp %}{{ 'now' | date: '%F' }}{% endcapture %}
 <section id="global-header">
   <div class="container">
     <div class="row">
@@ -20,16 +19,15 @@ permalink: /events/
   <div class="container">
     <div class="row">
       {% for event in site.data.events reversed %}
-      {% capture eventTimestamp %}{{ event.time | date: '%F' }}{% endcapture %}
       <div class="col-xs-12">
-        <div class="post-area card {% if eventTimestamp < currentTimestamp %}event-past{% else %}event-future{% endif %}">
+        <div class="post-area card event-card" data-timestamp="{{ event.time }}">
           <div class="row">
             <div class="col-xs-12 col-sm-2 col-date">
               <div class="date">
                 <div class="dayOfWeek">{{ event.time | date: "%a" }}</div>
                 <div class="day">{{ event.time | date: "%-d" }}</div>
                 <div class="dayOfWeek">{{ event.time | date: "%b" }}</div>
-                <div class="year">{{ event.time | date: "%Y" }}</div>
+                <!--<div class="year">{{ event.time | date: "%Y" }}</div>-->
               </div>
             </div>
             <div class="col-xs-12 col-sm-10">
@@ -48,6 +46,16 @@ permalink: /events/
         </div>
       </div>
       {% endfor %}
+      <script type="application/javascript">
+        var now = Date.now();
+        var events = document.querySelectorAll('.event-card');
+
+        Array.prototype.forEach.call(events, function(div) {
+          div.className = parseInt(div.dataset.timestamp) > now 
+          ? div.className + " event-future"
+          : div.className + " event-past";
+        });
+      </script>
     </div>
   </div>
 </section>

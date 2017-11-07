@@ -18,28 +18,31 @@
               <img src="{{ site.baseurl }}/img/logo_170.png" alt="Logo">
             </a>
           </div>
-            <!-- get the number of events to come -->
-            {% capture currentTimestamp %}{{ 'now' | date: '%F' }}{% endcapture %}
             {% assign events = site.data.events | map: 'time' %}
-            {% assign eventsToCome = 0 %}
-            {% for eventTime in events %}
-              {% capture eventTimestamp %}{{ eventTime | date: '%F' }}{% endcapture %}
-              {% if eventTimestamp >= currentTimestamp %}
-                {% assign eventsToCome = eventsToCome | plus: 1 %}
-              {% endif %}
-            {% endfor %}
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/events">
-                  Events
-                  {% if eventsToCome > 0 %}
-                    <span class="badge">{{ eventsToCome }}</span>
-                  {% endif %}</a></li>
+                <li>
+                  <a href="{{ site.baseurl }}/events">
+                    Events <span id="eventsToCome" class="badge">{{ eventsToCome }}</span>
+                  </a></li>
                 <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
                 <li><a href="{{ site.baseurl }}/sponsors">Sponsors</a></li>
                 <li><a href="https://github.com/GDGToulouse/meetup-cfp/issues/new" target="_blank">Proposer un sujet (CFP) <i class="fa fa-external-link"></i></a></li>
                 <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
               </ul>
+              <script type="application/javascript">
+                var now = Date.now();
+                var eventsToCome = ({{events | jsonify}}).filter(function(time) {
+                  return time >= now;
+                }).length;
+                var badge = document.querySelector('#eventsToCome');
+
+                if (eventsToCome > 0) {
+                  badge.textContent = eventsToCome;
+                } else {
+                  badge.remove();
+                }
+              </script>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
