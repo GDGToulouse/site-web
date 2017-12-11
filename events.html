@@ -24,9 +24,9 @@ permalink: /events/
           <div class="row">
             <div class="col-xs-12 col-sm-2 col-date">
               <div class="date">
-                <div class="dayOfWeek">{{ event.time | date: "%a" }}</div>
-                <div class="day">{{ event.time | date: "%-d" }}</div>
-                <div class="dayOfWeek">{{ event.time | date: "%b" }}</div>
+                <div class="dayOfWeek">{{ event.timeISOString | date: "%a" }}</div>
+                <div class="day">{{ event.timeISOString | date: "%-d" }}</div>
+                <div class="dayOfWeek">{{ event.timeISOString | date: "%b" }}</div>
                 <!--<div class="year">{{ event.time | date: "%Y" }}</div>-->
               </div>
             </div>
@@ -34,9 +34,9 @@ permalink: /events/
               <div class="content">
                 <a href="{{ event.event_url }}" target="_blank" class="title bold">{{ event.name }}</a>
                 <div class="event-venue">
-                  <h3 class="event-venue-name">Chez: <b>{{ event.venue.name }}</b></h3>
+                  <h3 class="event-venue-name">Chez: <b>{{ event.venueName }}</b></h3>
                   <address>
-                    {{ event.venue.address_1 }}<br> {{ event.venue.city }}
+                    {{ event.venueAddress }}<br> {{ event.venueCity }}
                   </address>
                 </div>
                 {{ event.description }}
@@ -51,7 +51,7 @@ permalink: /events/
         var events = document.querySelectorAll('.event-card');
 
         Array.prototype.forEach.call(events, function(div) {
-          div.className = parseInt(div.dataset.timestamp) > now 
+          div.className = parseInt(div.dataset.timestamp) > now
           ? div.className + " event-future"
           : div.className + " event-past";
         });
@@ -59,15 +59,3 @@ permalink: /events/
     </div>
   </div>
 </section>
-
-"venue": {
-            "country": "fr",
-            "localized_country_name": "France",
-            "city": "Toulouse",
-            "address_1": "7 Avenue Parmentier  31200 Toulouse",
-            "name": "Ecole d'informatique SupInfo",
-            "lon": 1.429574,
-            "id": 7072632,
-            "lat": 43.614071,
-            "repinned": false
-        }

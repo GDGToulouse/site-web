@@ -3,13 +3,22 @@ var _meetup = require('meetup-api')({
 });
 
 _meetup.getEvents({
-	group_urlname: 'GDG-Toulouse',
-	status: "upcoming,past"
-}, function (err, results) {
-    if (!results) return;
-    results.results.map(function(event) {
-        event.time = new Date(event.time).toISOString();
-        return event;
-    });
-    console.log(JSON.stringify(results.results));
+    group_urlname: 'GDG-Toulouse',
+    status: "upcoming,past"
+}, function (err, response) {
+    if (!response) return;
+    const results = response.results
+        .filter(event => event.visibility === 'public')
+        .map((event) => ({
+            id: event.id,
+            venueName: event.venue.name,
+            venueCity: event.venue.city,
+            venueAddress: event.venue.address_1,
+            name: event.name,
+            description: event.description,
+            time: event.time,
+            timeISOString: new Date(event.time).toISOString(),
+            event_url: event.event_url,
+        }));
+    console.log(JSON.stringify(results));
 });
