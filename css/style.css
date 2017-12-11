@@ -40,6 +40,9 @@
   font-size: 30px;
   color: #333;
 }
+.post-area p {
+  color: #333;
+}
 
 .post-area .event-venue address {
   margin-bottom: 0;
@@ -71,8 +74,8 @@
   }
 }
 
-#events img {
-  max-height: 100px;
+#events img, .event-card img {
+  max-width: 100%;
 }
 
 #events p {
@@ -118,6 +121,13 @@
   letter-spacing: 0.6em;
   padding-left: 0.3em;
   color: #aaa;
+}
+
+.section-blue .post-area .date .dayOfWeek,
+.section-red .post-area .date .dayOfWeek,
+.section-yellow .post-area .date .dayOfWeek,
+.section-green .post-area .date .dayOfWeek {
+  color: white;
 }
 
 #sponsors-logo-section {
