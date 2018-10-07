@@ -218,4 +218,5 @@ section.alert.alert-danger a{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
