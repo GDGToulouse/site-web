@@ -4,4 +4,6 @@ _site
 Gemfile.lock
 .DS_Store
 node_modules/
+node_modules/*
+.idea/
 generate_events.js

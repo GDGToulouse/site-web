@@ -2,6 +2,7 @@
 exclude:
   - "README.md"
   - "LICENSE.md"
+  - "node_modules"
 
 keep_files:
   - "CNAME"

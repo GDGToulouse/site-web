@@ -212,3 +212,10 @@ section.alert.alert-danger a{
   color: white;
   font-weight: bold;
 }
+
+.sponsor-card {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
