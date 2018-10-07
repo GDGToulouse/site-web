@@ -30,7 +30,7 @@ Le meetup d'Angular Toulouse ne sera plus mis à jour. Le meetup qui centraliser
 
 Pour proposer des sujets, ça se passe maintenant sur le Github du groupe. Vous allez voir c'est facile. [Cliquez ici](https://github.com/GDGToulouse/meetup-cfp/issues).
 
-Si vous avez des questions, n'hésitez pas à venir discuter avec nous sur le [Slack des communautés de Toulouse](http://communautes-toulouse.herokuapp.com/).
+Si vous avez des questions, n'hésitez pas à venir discuter avec nous sur le [Slack des communautés de Toulouse](http://bit.ly/2lPDCu6).
 
 A très vite,
 L'équipe du GDG Toulouse
