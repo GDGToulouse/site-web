@@ -27,6 +27,7 @@ permalink: /events/
                 <div class="dayOfWeek">{{ event.timeISOString | date: "%a" }}</div>
                 <div class="day">{{ event.timeISOString | date: "%-d" }}</div>
                 <div class="dayOfWeek">{{ event.timeISOString | date: "%b" }}</div>
+                <div class="year">{{ event.timeISOString | date: "%Y" }}</div>
                 <!--<div class="year">{{ event.time | date: "%Y" }}</div>-->
               </div>
             </div>

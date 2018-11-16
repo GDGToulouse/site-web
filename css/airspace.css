@@ -98,7 +98,7 @@ header .navbar-default .navbar-nav li:hover {
   background: url("../img/header.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: center bottom;
   padding: 140px 0;
   position: relative;
 }
@@ -115,7 +115,7 @@ header .navbar-default .navbar-nav li:hover {
   opacity: 0.6;
 }
 #slider .block {
-  color: #E3E3E4;
+  color: #fff;
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
@@ -128,7 +128,6 @@ header .navbar-default .navbar-nav li:hover {
   font-size: 20px;
   line-height: 38px;
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 3px;
   margin-bottom: 45px;
 }
 /*--
