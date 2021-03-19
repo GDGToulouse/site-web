@@ -1,0 +1,26 @@
+enable: true
+title: Team
+item:
+  - name: Maxime Pawlak
+    description: Secretary & startups' guru
+    photo: team/maxime_pawlak.jpg
+    socials:
+      - ti-twitter: 'https://twitter.com/Maxime_Pawlak'
+  - name: Guilhem Demiollis
+    description: Cloud's guru
+    photo: team/guilhem_demiollis.jpg
+  - name: Maxime Warnier
+    description: JavaScript's guru
+    photo: team/maxime_warnier.jpg
+    socials:
+      - ti-twitter: 'https://twitter.com/maxdow'
+  - name: Kevin Abrioux
+    description: Mobile native's guru
+    photo: team/kevin_abrioux.jpg
+    socials:
+      - ti-twitter: 'https://twitter.com/kevinabrioux'
+  - name: Kevin Segaud
+    description: Flutter's guru
+    photo: team/kevin_segaud.jpg
+    socials:
+      - ti-twitter: 'https://twitter.com/kleak_dev'

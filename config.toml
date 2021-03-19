@@ -1,0 +1,71 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Google Developer Groups Toulouse"
+theme = "dot"
+defaultContentLanguage = "en"
+googleAnalytics="UA-37717223-4"
+
+
+############################# Default Parameters ##########################
+[params]
+# logo is for all page
+logo = "images/logo_text.svg"
+# logo white is for homepage logo, you can use colorful logo too...
+logoWhite = "images/logo_text_white.svg"
+# when logo is empty, it will shown your site title
+
+# customize color
+primaryColor = "#547ebf"
+secondaryColor = "#f9f9f9"
+textColor = "#636363"
+textColorDark = "#242738"
+whiteColor = "#ffffff"
+
+############################## social links ##############################
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "https://twitter.com/gdgtoulouse"
+
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "https://linkedin.com/company/gdg-toulouse"
+
+[[params.social]]
+icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.youtube.com/c/gdgtoulouse"
+
+[[params.social]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.facebook.com/GDGToulouse"
+
+
+
+################################# language ################################
+[Languages]
+
+  ################################ English Language ######################
+  [Languages.en]
+  languageName = "En"
+  languageCode = "en-us"
+  weight = 1
+  home = "Home"
+  copyright = "GDGToulouse is part of [Google Developer Groups](https://developers.google.com/community/gdg)"
+    # navigation
+    [Languages.en.menu]
+
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Call for paper"
+        url = "https://github.com/GDGToulouse/meetup-cfp/issues/new"
+
+    # banner
+    [Languages.en.params.banner]
+      title = "We organize meetups and one of the biggest DevFest in the World, in Toulouse, France"
+      description = ""
+      image = "images/banner.jpg"
+      placeholder = "Have a question? Just ask here or enter terms"
+
+    # contact
+    [Languages.en.params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."

@@ -1,0 +1,31 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ with $data.team }}
+    {{ if .enable }}
+    <section id="team" class="section bg-primary">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h2 class="section-title">{{ .title }}</h2>
+          </div>
+          {{ range .item }}
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="text-center d-block">
+              <img src="{{ .photo }}" class="img-fluid"></img>
+              <h3 class="mb-1 mt-2">{{ .name }}</h3>
+              <p class="mb-0">{{ .description }}</p>
+            </div>
+            <ul class="list-inline text-center">
+              {{ range .socials }}
+                {{ range $key, $value := . }}
+                <li class="list-inline-item"><a class="btn btn-primary btn-sm" href="{{ $value | safeURL }}"><i class="{{ $key }}"></i></a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+    {{ end }}
+{{ end }}

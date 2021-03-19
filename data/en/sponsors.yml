@@ -1,0 +1,16 @@
+enable: true
+title: Proudly sponsored by
+jobs: true
+item:
+  - name: 'MonkeyPatch'
+    description: 'MonkeyPatch is a Toulouse-based IT consulting and implementation company created in March 2016'
+    image: 'sponsors/logo-monkey_patch.png'
+    website: 'http://www.monkeypatch.io/en/'
+  - name: 'Informatique Banque Populaire'
+    description: 'Notre entreprise, filiale du Groupe BPCE, assure le développement informatique du système d’information des Banques Populaires.'
+    image: 'sponsors/logo-ibp.jpg'
+    website: 'https://informatique.banquepopulaire.fr/'
+  - name: 'Stack Labs'
+    description: 'The new generation tech company.'
+    image: 'sponsors/logo-stacklabs.png'
+    website: 'https://stack-labs.com/'

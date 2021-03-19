@@ -1,0 +1,32 @@
+{{ "<!-- banner -->" | safeHTML }}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 text-center mx-auto">
+      <h1 class="text-white mb-3">{{ .Site.Params.banner.title }}</h1>
+      <p class="text-white mb-4">{{ .Site.Params.banner.description }}</p>
+      <div id="counters">
+        <div class="row counter-box">
+          <div class="col-xs-12 col-sm-4">
+            <div class="block text-center">
+              <h4 class="counter-1500ms">4</h4>
+              <span><a href="https://devfesttoulouse.fr/" style="color: white; text-decoration: underline;" target="_blank">DevFests</a> organized</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="block text-center">
+              <h4 class="counter-1750ms counter-plus">70</h4>
+              <span><a href="https://www.meetup.com/GDG-Toulouse/" style="color: white; text-decoration: underline;" target="_blank">Meetups</a> organized</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 ">
+            <div class="block text-center">
+              <h4 class="counter-2000ms counter-plus">2000</h4>
+              <span>Members</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ "<!-- /banner -->" | safeHTML }}

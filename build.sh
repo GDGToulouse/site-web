@@ -1,0 +1,1 @@
+hugo -DF --baseURL https://www.gdgtoulouse.fr/

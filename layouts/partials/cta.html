@@ -1,0 +1,31 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ with $data.cta }}
+    {{ if .enable }}
+    <section class="bg-gray pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section bg-white shadow text-center">
+              {{ with .title }}
+              <h2 class="mb-4">{{ . }}</h2>
+              {{ end }} 
+              {{ with .description | markdownify }}
+              <p class="mb-4">{{ . }}</p>
+              {{ end }}
+
+              {{ range .buttons}}
+              <a
+                href="{{ .url }}"
+                target="_blank"
+                class="btn btn-primary"
+                >{{.text }}</a
+              >
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ end }}
+{{ end }}
